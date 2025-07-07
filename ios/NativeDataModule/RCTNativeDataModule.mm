@@ -13,8 +13,8 @@ RCT_EXPORT_MODULE()
 
 NativeDataModuleImpl *nativedatamodule = [[NativeDataModuleImpl alloc] init];
 
-- (NSString *)getData {
-    return [nativedatamodule getData];
+- (NSString *)setData {
+    return [nativedatamodule setData];
 }
 
 @end
